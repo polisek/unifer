@@ -64,10 +64,6 @@
         
     });
 
-    $j(".nav-x").click(function() {
-        $j('.overlay').addClass('overlay-open');
-        $j(this).hide();
-    });
 
     jQuery(document).ready(function(){
         let mdl_open = false;
